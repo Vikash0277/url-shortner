@@ -1,17 +1,16 @@
 import { } from 'react'
-import { ShortUrl } from './components/shortUrl'
 import './App.css'
+import { BrowserRouter , Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
 
 function App() {
-  return (
-    <div className='grid grid-col-1 '>
-
-      
-       <div>Paste the Url</div>
-       <input type="text" />
-       < ShortUrl/>
-       </div>
-  )
+  return <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+  </>
 }
 
 

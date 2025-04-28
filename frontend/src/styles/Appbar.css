@@ -1,0 +1,32 @@
+
+
+.appbar{
+    background-color: #282c34;
+    color: rgb(226, 189, 189);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appbar-first-div{
+    display: flex;
+    align-items: center;
+}
+.ul-class{
+    list-style: none;
+    margin-left: 400px;
+    display: flex;
+}
+.ul-class li{
+
+    cursor: pointer;
+    color: rgb(226, 189, 189);
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: rgb(226, 189, 189);
+    padding: 10px;
+    font-size: 20px;
+}
